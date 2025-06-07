@@ -1,1 +1,34 @@
-<h1>Welcome to the home page</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome | Student Score Predictor</title>
+    <style>
+        body {
+            text-align: center;
+            padding-top: 100px;
+            font-family: Arial, sans-serif;
+        }
+        .start-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .start-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎓 Welcome to the Student Performance Predictor</h1>
+    <p>Click below to predict a student's performance based on input details.</p>
+
+    <form action="/predictdata">
+        <button class="start-button" type="submit">Start Prediction</button>
+    </form>
+</body>
+</html>
